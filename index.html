@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Favicon -->
+  <link rel="icon" href="assets\422073.jpg" type="image/gif">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Superheroes</title>
+</head>
+<body>
+  <div id="snackbar"></div>
+    <header>
+        <a href="#">
+          <div class="nav-left">
+        <!-- animation image -->
+    
+        <div class="superhero">
+          <div class="lines">
+            
+          </div>
+          <div class="base">
+            <span></span>
+            <div class="head"></div>
+          </div>
+        </div>
+        <div class="earth">
+          <div class="earth-shadow"></div>
+        </div>
+        <div class="stars"></div>
+        <div class="stars-2"></div>
+        <h1></h1>
+        <!-- super hero -->
+            <img id="logo" src="assets\422073.jpg" width="50px">
+            <div id="logo-text">
+              <h2>SuperHeroes</h2>
+            </div>
+          </div>
+        </a>
+        <div class="nav-right">
+          <a href="index.html">
+            <div>Home</div>
+          </a>
+          <a href="favourites.html">
+            <div>Favourites</div>
+          </a>
+        </div>
+
+        
+       <form id="searchForm">
+        <input type="text" name="search" id="search" value="" placeholder="Search here your superhero" /> 
+        <button type="submit">search</button> 
+       </form>
+      </header>
+      <div id="serach-result"> </div>
+      <main>
+         <div id="characters"></div>
+      </main>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="scripts/index.js"></script>
+</body>
+</html>
